@@ -1,0 +1,25 @@
+fastapi>=0.115.0
+sounddevice>=0.5.1
+shazamio>=0.6.0
+numpy>=1.26.0
+aiohttp>=3.9.0
+uvicorn[standard]>=0.32.0
+sqlalchemy[asyncio]>=2.0.36
+aiosqlite>=0.20.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.1
+pytesseract>=0.3.13
+pillow>=10.4.0
+websockets>=14.1
+python-multipart>=0.0.12
+httpx>=0.27.0
+openai>=1.50.0
+faster-whisper>=1.0.0
+pyaudiowpatch>=0.2.12
+winrt-Windows.Media.Control>=2.0.0b1
+winrt-Windows.Foundation>=2.0.0b1
+imageio-ffmpeg>=0.5.1
+omegaconf>=2.3.0
+scipy>=1.12.0
+# torch ставится отдельно в ensure-backend-venv.bat (CPU-only билд, без CUDA)
